@@ -30,3 +30,6 @@ All the asked features are implemented. Creative liberty has been taken to style
 - Open "localhost:3000" in Chrome to access the project.
 
 ![Alt text](image.png)
+
+
+Made with ❤ by Md. Shadab Hussain
