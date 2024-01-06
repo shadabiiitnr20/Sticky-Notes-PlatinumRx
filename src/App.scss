@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  // overflow-y: hidden;
+}
+
+.title-section {
+  height: 8rem;
+  padding: 2px;
+}
+
+.title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.add-note-btn {
+  margin: 4px;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.clear-board-btn {
+  margin: 4px;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.main-container {
+  height: calc(100vh - 9rem);
+}
+
+.note-container {
+  position: absolute;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 2px;
+  background-color: #feff9c;
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  height: 225px;
+  border-radius: 4px;
+  box-shadow: 5px 2px 2px black;
+  &:hover {
+    cursor: grab;
+  }
+}
+
+.note-container > span {
+  font-size: small;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.note-container > textarea {
+  padding: 8px;
+  outline: auto;
+  background-color: #feff9c;
+  height: 220px;
+  resize: none;
+  font-family: monospace;
+}
+
+.btn-container {
+  margin: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn {
+  margin-top: 2px;
+  padding: 2px;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.pin-btn {
+  margin-top: 2px;
+  padding: 2px;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.delete-btn {
+  margin-top: 2px;
+  padding: 2px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.footer-container {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
