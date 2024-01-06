@@ -28,3 +28,5 @@ All the asked features are implemented. Creative liberty has been taken to style
 - In Visual Studio Code, inside the root directory, open the terminal and run the command "npm i" to install the required dependencies.
 - Run npm start
 - Open "localhost:3000" in Chrome to access the project.
+
+![Alt text](image.png)
